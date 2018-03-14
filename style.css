@@ -1,0 +1,25 @@
+ /*------------------ css reset -------------------------*/
+
+* {
+    margin: 0;
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    line-height: 1.5em;
+    background-color: white;
+    font-size: 1em;
+    font-family: 'lora', sans-serif;
+    color: black;
+}
+
+
+ h1 {
+    
+    
+    
+}
+
