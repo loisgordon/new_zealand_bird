@@ -26,10 +26,9 @@ h1 {
 }
 
 .list {
-    margin: auto;
+    margin: 2em;
     list-style: none;
     text-align: left;
-    
 }
 
 p {
@@ -81,19 +80,6 @@ text-align: center;
   padding-bottom: px;
   line-height: 3;
 }
-.main_header {
-  position: fixed;
-  top: 0px;
-  max-height: 70px;
-  z-index: 999;
-  width: 100%;
-  padding-top: 10px;
-  background: none;
-  overflow: hidden;
-  top: -100px;
-  padding-bottom: 6px;
-  font-family: "istok web", sans-serif;
-}
 
 @media only screen and (max-width: 766px) {
   .main_header {
@@ -104,12 +90,23 @@ text-align: center;
 .logo {
   width: 50px;
   margin: auto;
-  color: yellow;
   display: inline;
   line-height: 1em;
 }
 @media only screen and (max-width: 766px) {
   .logo {
+    float: none;
+  }
+}
+
+.arrow {
+  width: 50px;
+  margin: auto;
+  display: inline;
+ 
+}
+@media only screen and (max-width: 766px) {
+  .arrow {
     float: none;
   }
 }
