@@ -1,3 +1,3 @@
 # Takahe Project
 
-### [Finding an Extinct New Zealand Bird](https://loisgordon.github.io/new-zealand-bird/adjustment.html)
+### [Finding an Extinct New Zealand Bird](https://loisgordon.github.io/new_zealand_bird/adjustment.html)
