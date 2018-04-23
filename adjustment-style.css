@@ -19,8 +19,8 @@ a {
 /*----- ---------- -------- add shadow to h1--------*/
 
 h1 {
-  font-size: 30px;
-  line-height: 1em;;
+  font-size: 2em;
+  line-height: 1em;
   text-transform: uppercase;
   font-family: 'istok web', sans-serif;
 }
@@ -41,7 +41,6 @@ p {
 
 #intro h1 {
     color: yellow;
-
 }
 .row {
   width: 100%;  
@@ -60,24 +59,26 @@ p {
 
 #hero {
   position: relative;
-  background: url(https://images.pexels.com/photos/698396/pexels-photo-698396.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb) no-repeat center center fixed;
+  background: url(https://images.pexels.com/photos/1005255/pexels-photo-1005255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
   background-size: cover;
   text-align: center;
   color: #fff;
-  padding-top: 100px;
-  min-height: 500px;
+  padding-top: 20vh;
+  padding-bottom: 15vh;
+  min-height: 50vh;
   letter-spacing: 2px;
   font-family: "istok web", sans-serif;
 }
 #hero h1 {
-  font-size: 3em;
+  font-size: 2em;
   line-height: .5em;
+text-align: center;
 }
 #hero h1 span {
   font-size: 25px;
   color: #ffffff;
   border-bottom: 2px solid #ffffff;
-  padding-bottom: 12px;
+  padding-bottom: px;
   line-height: 3;
 }
 .main_header {
@@ -86,11 +87,9 @@ p {
   max-height: 70px;
   z-index: 999;
   width: 100%;
-  padding-top: 17px;
+  padding-top: 10px;
   background: none;
   overflow: hidden;
-  transition: all 0.3s;
-  opacity: 0;
   top: -100px;
   padding-bottom: 6px;
   font-family: "istok web", sans-serif;
@@ -106,8 +105,8 @@ p {
   width: 50px;
   margin: auto;
   color: yellow;
-  display: block;
-  line-height: 1;
+  display: inline;
+  line-height: 1em;
 }
 @media only screen and (max-width: 766px) {
   .logo {
@@ -115,7 +114,7 @@ p {
   }
 }
 
-/*---------------- nav ----------------*/
+/*---------------- nav ---------
 
 @media only screen and (max-width: 766px) {
   nav {
@@ -125,8 +124,6 @@ p {
 nav ul {
   list-style: none;
   overflow: hidden;
-  text-align: right;
-  float: right;
 }
 @media only screen and (max-width: 766px) {
   nav ul {
@@ -139,7 +136,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin-left: 35px;
+  margin: auto;
   line-height: 1.5;
 }
 @media only screen and (max-width: 766px) {
@@ -164,4 +161,4 @@ nav ul a.active {
 }
 
 
-
+-------*/
