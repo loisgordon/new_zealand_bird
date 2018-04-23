@@ -16,7 +16,7 @@ a {
 }
 
 
-/*----- ---------- -------- add shadow to h1--------*/
+/*-------------------- add shadow to h1--------*/
 
 h1 {
   font-size: 2em;
@@ -36,7 +36,6 @@ p {
   font-size: 17px;
   line-height: 2;
 }
-
 
 #intro h1 {
     color: yellow;
@@ -100,6 +99,7 @@ text-align: center;
 }
 
 .arrow {
+  padding-top: 2em;
   width: 50px;
   margin: auto;
   display: inline;
