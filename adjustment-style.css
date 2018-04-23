@@ -25,6 +25,10 @@ h1 {
   font-family: 'istok web', sans-serif;
 }
 
+h2 {
+    padding-bottom: 3em;
+}
+
 .list {
     margin: 2em;
     list-style: none;
@@ -103,6 +107,7 @@ text-align: center;
   width: 50px;
   margin: auto;
   display: inline;
+ 
  
 }
 @media only screen and (max-width: 766px) {
