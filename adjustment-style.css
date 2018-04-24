@@ -20,7 +20,7 @@ a {
 
 h1 {
   font-size: 2em;
-  line-height: 2em;
+  line-height: 1.5em;
   text-transform: uppercase;
   font-family: 'istok web', sans-serif;
 }
@@ -34,7 +34,7 @@ h2 {
 p {
   margin-bottom: 20px;
   font-size: 17px;
-  line-height: 2;
+   line-height: 1.5em;
 }
 
 #intro h1 {
@@ -117,8 +117,8 @@ p {
 }
 
 .takahe-grass img {
-    width: ;
-    height: 100%;
+    width: 60%;
+    height: 50%;
     
 }
 
@@ -135,7 +135,7 @@ p {
     color: dimgray;
 }
 
-#sec02 p {
+#sec02 {
     
     color: darkgray
 }
@@ -149,6 +149,33 @@ p {
 .takahe-wings img {
     float: right;
     margin-top: -15em;
+}
+
+.quote {
+    background: dimgrey;
+    padding-bottom: 2em;
+}
+
+.quote p {
+    font-size: 1em;
+    line-height: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    
+}
+
+.quote cite {
+    padding-left: 2em;
+    color: #FCD630;
+}
+
+.quote img {
+    display: inline-flex;
+    float: left;
+    padding-right: 1em
+    
 }
 /*---------------- nav ---------
 
