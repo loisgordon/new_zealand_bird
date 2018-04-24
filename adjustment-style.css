@@ -79,6 +79,12 @@ p {
   }
 }
 
+@media only screen and (max-width: 766px) {
+  #hero {
+      background: 100vh;
+  }
+}
+
 .logo {
   width: 50px;
   margin: auto;
