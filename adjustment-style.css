@@ -26,13 +26,9 @@ h1 {
 }
 
 h2 {
-    padding-bottom: 1em;
-}
-
-.list {
-    margin: 2em;
-    list-style: none;
     text-align: left;
+    font-size: .5em;
+    display: inline-block;
 }
 
 p {
@@ -94,7 +90,10 @@ p {
     float: none;
   }
 }
-
+.yellow-line {
+  padding-bottom: 2em;
+    
+}
 .arrow {
   padding-top: 2em;
   width: 50px;

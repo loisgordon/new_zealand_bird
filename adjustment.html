@@ -8,23 +8,31 @@
     <style>
     @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700|Lora:400,400i');
     </style>
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       
+<!--------------------- js ------------------>
+ <script>
+ $(function() {
+   $('a[href*=#]:not([href=#])').click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+       var target = $(this.hash);
+       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+       if (target.length) {
+         $('html,body').animate({
+           scrollTop: target.offset().top
+         }, 1000);
+         return false;
+       }
+     }
+   });
+ });
+ </script>
+    
         
 
 </header>
 
 
-<!--------------------- js ------------------
- 
- <script>
-     
-     function onLinkClick() {
-  document.getElementsByTagName('arrow')[3].scrollIntoView();
-  // will scroll to 4th h3 element
-}
-    </script>
-    
---->
   <!---------------- start of body ------------------>
   <body>
 <div class="sections">
@@ -36,10 +44,10 @@
       <h1>The National</h1>
     <h1> Geographic Magazine</h1>
     <h2>Organised for the Increase and Diffusion of Geographic Knowledge</h2>
-         
-          <h1>Finding an 'Extinct' New Zealand Bird</h1>
-        <div class="yellow-line"><img src="img/yellow-line@72x.png">
+          <div class="yellow-line"><img src="img/yellow-line@72x.png">
         </div>
+          <h1>Finding an 'Extinct' New Zealand Bird</h1>
+       
        <a class="arrow" href="#intro"><img src="img/small-arrow@72x.png"></a>
   </section>
 
