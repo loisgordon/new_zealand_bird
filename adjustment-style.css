@@ -38,7 +38,7 @@ p {
 }
 
 #intro h1 {
-    color: yellow;
+   color: #FCD630;
 }
 .row {
   width: 100%;  
@@ -179,8 +179,7 @@ p {
     
 }
 table  {
-    border: 1px solid;
-    border-top: 2px solid;
+  
 }
 
 th, td {
@@ -189,6 +188,24 @@ th, td {
     border: 1px solid;
     background: dimgrey;
     color: white;
+}
+
+.table caption {
+    
+    text-align: left;
+    margin: auto;
+    display: inline-table;
+    color: #FCD630;
+    background: dimgrey;
+    
+}
+
+
+#sec03 h1 
+
+{
+    color: #FCD630;
+    
 }
 /*---------------- nav ---------
 
