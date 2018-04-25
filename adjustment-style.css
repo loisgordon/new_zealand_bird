@@ -204,7 +204,6 @@ th, td {
 #sec03 h1 
 
 {
-    color: #FCD630;
     
 }
 
@@ -212,6 +211,40 @@ th, td {
     
     color: #FCD630;
     font-family: 'istok web', sans-serif;
+}
+
+
+.yellow-vertical-img img {
+    max-height: 5.5em;
+}
+
+#sec04 quote {
+    
+    color: white;
+}
+
+#sec04 h1 {
+    color: dimgray;
+}
+
+#sec04 p {
+    
+    color: darkgray;
+}
+
+.pipe {
+    padding-top: 2em;
+   align-items: center;
+    display: inline-flex;
+}
+
+#sec04 .caption {
+
+    font-family: 'istok web', sans-serif;
+    
+}
+#sec05 img {
+    width: 55em;
 }
 /*---------------- nav ---------
 
