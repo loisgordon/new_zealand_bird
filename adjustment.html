@@ -180,12 +180,36 @@
      <p>
          The fourth specimen was caught by a dog on the shore of Middle Fiord of Lake Te Anau in 1898. The bird was bought by the Government for £250 to ensure that it remained in New Zealand. Preserved in the Otago Museum at Dunedin, it still is the only mounted specimen in the country, for no more takahe were known until Dr. Orbell's discovery.
 
-Notornis Valley, in South Island's Murchison Mountains, lies only six miles from a main road; yet it hid the takahe from human sight for decades. From boyhood Dr. G. B. Orbell, an Invercargill physician, reiused to believe the creature lost. After thirty years his quest succeeded; Dr. Orbell tracked the takahe to the scene of its last stand in one of the wildest parts of the Dominion.
+        Notornis Valley, in South Island's Murchison Mountains, lies only six miles from a main road; yet it hid the takahe from human sight for decades. From boyhood Dr. G. B. Orbell, an Invercargill physician, reiused to believe the creature lost. After thirty years his quest succeeded; Dr. Orbell tracked the takahe to the scene of its last stand in one of the wildest parts of the Dominion.
      </p>
-     <!-------- map --------->
+      <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+      <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -45.232728, lng: 167.500129};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6.5,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>     
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm8Kl_tvmMk_dpbLl_w2_If7Wk49fH0-c&callback=initMap">
+    </script>
+     <!-------- map ----
      <img src="img/new-zealand.png">
+      ----->
       </div>
-  </section><!-- END row -->
+  </section><!-- END this row ------->
 
   <section class="row" id="sec04">
     <div class="content">
