@@ -239,13 +239,45 @@ th, td {
 }
 
 #sec04 .caption {
-
     font-family: 'istok web', sans-serif;
     
 }
-#sec05 img {
+
+#sec05 img:last-child {
     width: 55em;
 }
+
+#sec06 img:first-child {
+  
+}
+
+#sec06 h1 {
+    color: dimgray;
+}
+
+#sec06 p {
+    color: darkgray;
+}
+
+#sec06 ul {
+    font-size: 1em;
+    line-height: 2em;
+    color: white;
+}
+.line img {
+    margin-right: 2em;
+    height: 22em;
+    margin-top: 2.5em;
+
+}
+
+#sec06 h2 {
+     color: #FCD630;
+    font-family: 'istok web', sans-serif;
+    font-size: 2em;
+    margin-top: -5em;
+}
+
 /*---------------- nav ---------
 
 @media only screen and (max-width: 766px) {
