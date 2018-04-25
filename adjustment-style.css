@@ -179,7 +179,7 @@ p {
     
 }
 table  {
-  
+  font-family: 'istok web', sans-serif;
 }
 
 th, td {
@@ -195,9 +195,9 @@ th, td {
     text-align: left;
     margin: auto;
     display: inline-table;
-    color: #FCD630;
     background: dimgrey;
-    
+    color: #FCD630;
+    font-family: 'istok web', sans-serif;
 }
 
 
@@ -206,6 +206,12 @@ th, td {
 {
     color: #FCD630;
     
+}
+
+.map-caption {
+    
+    color: #FCD630;
+    font-family: 'istok web', sans-serif;
 }
 /*---------------- nav ---------
 
