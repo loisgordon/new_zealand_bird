@@ -278,51 +278,27 @@ th, td {
     margin-top: -5em;
 }
 
-/*---------------- nav ---------
-
-@media only screen and (max-width: 766px) {
-  nav {
-    width: 100%;
-  }
-}
-nav ul {
-  list-style: none;
-  overflow: hidden;
-}
-@media only screen and (max-width: 766px) {
-  nav ul {
-    padding-top: 10px;
-    margin-bottom: 22px;
-    float: left;
-    text-align: center;
-    width: 100%;
-  }
-}
-nav ul li {
-  display: inline-block;
-  margin: auto;
-  line-height: 1.5;
-}
-@media only screen and (max-width: 766px) {
-  nav ul li {
-    width: 100%;
-    padding: 7px 0;
-    margin: 0;
-  }
-}
-nav ul a {
-  color: #888888;
-  text-transform: uppercase;
-  font-size: 12px;
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  transition: all 500ms linear;
-}
-nav ul a.active {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  transition: all 500ms 100ms linear;
-}
 
 
--------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
