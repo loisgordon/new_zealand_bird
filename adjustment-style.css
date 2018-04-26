@@ -81,8 +81,8 @@ p {
 
 @media only screen and (max-width: 766px) {
   #hero {
-      background: 100vh;
-      background-size: cover;
+     
+      background-size: 50%;
   }
 }
 
