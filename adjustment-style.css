@@ -55,8 +55,6 @@ p {
     padding: 50px 2% 50px;
 }
 
-.header .row .content {}
-
 .dark {
     background: #333;
 }
@@ -115,8 +113,13 @@ p {
     display: inline-block;
 }
 
+.arrow img {
+    
+    max-width: 2em;
+}
+
 .arrow img:hover {
-    transform: scale(1.3, 1.3);
+    transform: scale(1.5, 1.5);
     transition: .3s
 }
 
@@ -286,9 +289,10 @@ td {
     align-self: center;
     margin-left: 50%;
     margin-bottom: 1em;
+    max-width: 2em;
 }
 
 .arrow-bottom img:hover {
-    transform: scale(1.3, 1.3);
+    transform: scale(1.5, 1.5);
     transition: .3s;
 }
